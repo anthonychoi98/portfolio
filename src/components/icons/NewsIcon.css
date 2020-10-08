@@ -1,0 +1,17 @@
+
+  
+  .nicon {
+    background-size: contain;
+    width: 100%;
+    height:100%; 
+    background-repeat:no-repeat;
+    background-image: url('https://i.imgur.com/HbPPx5i.png');    
+    background-position: center;
+    z-index:0;
+}
+
+div.newsicon{
+  width: 13%;
+  height: 20%;
+}
+
