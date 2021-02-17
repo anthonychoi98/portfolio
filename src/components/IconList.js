@@ -19,8 +19,8 @@ class IconList extends Component {
                 <AboutMe></AboutMe>
                 <LinkedInIcon></LinkedInIcon>
                 <GitHubIcon></GitHubIcon>
-                <SpotifyIcon></SpotifyIcon>
-                <NewsIcon></NewsIcon>
+                {/* <SpotifyIcon></SpotifyIcon> */}
+                {/* <NewsIcon></NewsIcon> */}
             </div>
         );
     }

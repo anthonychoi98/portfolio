@@ -58,23 +58,23 @@ class AboutMeModal extends Component {
                 <section className="tabs" style={{width:'calc(99.3%)', height: 500, margin: 3, overflow:'contain'}}>
                     <menu role="tablist" aria-label="Sample Tabs">
                     <button onClick={changeTabs} id="tab-1" role="tab" aria-selected="true" aria-controls="tab-A" tabIndex="0">About Me</button>
-                    <button onClick={changeTabs} id="tab-2" role="tab" aria-selected="false" aria-controls="tab-B" tabIndex="-1">Some Projects</button>
+                    {/* <button onClick={changeTabs} id="tab-2" role="tab" aria-selected="false" aria-controls="tab-B" tabIndex="-1">Some Projects</button> */}
                     <button onClick={changeTabs} id="tab-3" role="tab" aria-selected="false" aria-controls="tab-C" tabIndex="-1">Contact Me</button>
                     </menu>
                     <article role="tabpanel" id="tab-A" aria-labelledby="tab-1" style={{height:'calc(81.4%)'}}>
                         <div className="tab1" style={{overflow:'auto', height:'calc(101%)', width:'calc(101%)'}}>
-                            <img src="https://i.imgur.com/XlqHUI9.png" style={{maxHeight: 1400, maxWidth: 720}}></img>
+                            <img src="https://i.imgur.com/T1AEuOQ.png" style={{maxHeight: 1400, maxWidth: 720}}></img>
                         </div>
                     </article>
-                    <article role="tabpanel" id="tab-B" aria-labelledby="tab-2" hidden style={{height:'calc(81.4%)', overflow:'contain'}}>
+                    {/* <article role="tabpanel" id="tab-B" aria-labelledby="tab-2" hidden style={{height:'calc(81.4%)', overflow:'contain'}}>
                         <div className="tab2" style={{overflow:'auto', height:'calc(101%)', width:'calc(101%)'}}>
                             <img src="https://i.imgur.com/OZ2dJtI.png" style={{maxHeight: 1400, maxWidth: 720}}></img>
                         </div>
                         
-                    </article>
+                    </article> */}
                     <article role="tabpanel" id="tab-C" aria-labelledby="tab-3" hidden style={{height:'calc(81.4%)'}}>
-                        <a href="mailto:achoi39@ucmerced.edu"><h3>Email Me</h3></a>
-                        <h3>Call or text me at (213)245-3455</h3>
+                        <a href="mailto:anthonychoi98@gmail.com"><h3>Email Me</h3></a>
+                        <h3>Cell: (213)245-3455</h3>
                         
                     </article>
                 </section>
